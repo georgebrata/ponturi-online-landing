@@ -1060,7 +1060,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .generic-blockquote {
-  padding: 30px 50px 30px 30px;
+  padding: 20px 40px 20px 20px;
   background: #f9f9ff;
   border-left: 2px solid #E84747;
 }
@@ -1946,6 +1946,7 @@ nav a:hover {
 
 body {
   background: #E84747;
+  min-width: 333px;
 }
 
 .main-wrapper-first {
@@ -2185,7 +2186,7 @@ body {
 }
 
 .offer-left {
-  background: url(../img/oa1.jpg) no-repeat center center;
+  background: url(../img/abonament-free.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -2193,11 +2194,12 @@ body {
 }
 
 .offer-right {
-  background: url(../img/oa2.jpg) no-repeat center center;
+  background: url(../img/abonament-premium.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  filter: blur(1);
 }
 
 .image-gallery-area {
@@ -2297,6 +2299,16 @@ body {
 .newsletter-area p {
   margin-top: 1rem;
   font-weight: 300;
+}
+
+.logo {
+  height: 150px;
+}
+
+@media (min-width: 991px) {
+  .logo {
+    height: 15vw;
+  }
 }
 
 .newsletter-area .subcribe-form {
